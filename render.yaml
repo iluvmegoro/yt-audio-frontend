@@ -7,4 +7,4 @@ services:
     startCommand: "npm start"
     envVars:
       - key: PYTHON_API
-        value: https://ae-qiec.onrender.com  # ← FlaskのURL
+        value: https://yt-audio-api-q9x4.onrender.com  # ← FlaskのURL
