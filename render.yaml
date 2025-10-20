@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: yt-audio-node
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: PYTHON_API
+        value: https://ae-qiec.onrender.com  # ← FlaskのURL
